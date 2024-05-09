@@ -8,8 +8,15 @@ Mike Pryor
 About MusicStreamLoggerCodingChallenge
 --------------------------------------
 This project is in response to the coding challenge to monitor a music stream
-service. The project was compiled with the Makefile developed on
-Ubuntu 22.04.4 LTS.
+service. The hiring manager requested that the solution provide updates to the
+consol any time a song's state changed. The HTTP server provides a way to get
+the playlist of songs with their ID and name, and this app has to display the full
+song information for all songs in the playlist first. Then it has to display any
+songs that change state by printing the state that changed with the song's ID.
+Last, any songs removed from the playlist should print as <code>Song removed:
+songName (UUID) has been removed</code> to notify of removal.
+
+The project was compiled with the Makefile developed on Ubuntu 22.04.4 LTS.
 
 --------------------------------------
 Dependencies
